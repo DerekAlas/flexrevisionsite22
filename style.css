@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Monoton&family=Playfair+Display&family=Raleway&display=swap');
+
+
+body{
+  margin:0;
+  padding:0;
+}
+
+
+h1{
+  font-size: 75px;
+  font-family: 'Courier Prime', monospace;
+  color: rgb(55, 55, 55);
+}
+
+
+h2{
+  padding-left: 20px;
+  text-decoration: underline;
+}
+
+
+p{
+  font-family: 'Raleway', sans-serif;
+  font-size: 24px;
+  padding-left: 20px;
+}
+
+
+h3{
+  font-family: 'Courier Prime', sans-serif;
+}
+
+
+h5{
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+}
+
+
+h6{
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  color: black;
+  padding: 10px;
+  padding-top: 0px;
+}
+
+
+.header{
+  display: flex;
+  background-color: rgb(247, 176, 176);
+  width: 100%;
+  justify-content: center;
+}
+
+
+
+.menu{
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  background-color: rgb(210, 13, 13);
+  width: 14vw;
+  order: 0;
+}
+
+
+.vertical-menu{
+  display: flex;
+  flex-direction: column;
+  font-size: 23px;
+  text-align: center;
+  width: 14vw;
+}
+
+.vertical-menu a{
+  background-color: rgb(210, 13, 13);
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover{
+  text-decoration: underline;
+}
+
+.vertical-menu a:active{
+  color: rgb(193, 190, 196);
+}
+
+
+.content{
+  order: 1;
+  width: 85vw;
+  flex-wrap: wrap;
+}
+
+
+.mainContainer{
+  display: flex;
+}
+
+
+.subHeader{
+  display: flex;
+}
+
+
+.mainContent{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+
+.previews{
+  display: flex;
+  justify-content: space-between;
+}
+
+.Preview_{
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  background-color: rgb(227, 211, 211);
+}
+
+
+.headers_{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(163, 14, 3);
+  color: white;
+  text-decoration: none;
+}
+
+
+.imgtext{
+  display: flex;
+}
+
+
+img{
+  height: 200px;
+}
+
+
+.images{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
